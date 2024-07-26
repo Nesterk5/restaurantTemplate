@@ -1,0 +1,95 @@
+.center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0vh;
+    /* vertical centering behavior */
+}
+
+.subscription-section {
+    background-color: #d1d5ce;
+    /* Color matching the one in the image */
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #2a3a4a;
+    /* Color of the icons */
+    font-size: 24px;
+    /* Size of the icons */
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #1d2b3a;
+    /* Hover effect */
+}
+
+.email-subscription form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    width: 340px;
+    height: 38px;
+    box-sizing: border-box;
+}
+
+.input-group input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+    width: 200px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.input-group button {
+    background-color: #2a3a4a;
+    /* Button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-group button[type="submit"] {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.input-group button[type="button"] {
+    margin-left: 10px;
+    /* Space between subscribe and unsubscribe buttons */
+    border-radius: 4px;
+    /* unsubscribe button rounded corners */
+}
+
+.input-group button:hover {
+    background-color: #1d2b3a;
+    /* Hover effect */
+}
+
+.email-subscription p {
+    margin-top: 10px;
+    color: #2a3a4a;
+    font-size: 12px;
+}
+
+.email-subscription label,
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #152f4e;
+    font-size: 12px;
+}

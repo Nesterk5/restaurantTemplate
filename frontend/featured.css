@@ -1,0 +1,96 @@
+        /* Featured Products Section */
+        
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Brandon Grotesque', sans-serif;
+            font-size: 16px;
+            color: #383838;
+            font-weight: 400;
+            line-height: 1.25;
+        }
+        
+        .welcome-content {
+            background-color: #d1dac2;
+        }
+        
+        .featured-products-section {
+            padding: 40px 20px;
+            text-align: start;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .featured-products-section h2 {
+            font-family: 'Brandon Text', sans-serif;
+            font-size: 28px;
+            color: #152f4e;
+            font-weight: 700;
+            text-align: start;
+            /* Aligns with the start of the images */
+        }
+        /* Products Grid */
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            width: 100%;
+            max-width: 1200px;
+            /* Centers the grid */
+            margin: 0 auto;
+        }
+        /* Product Item */
+        
+        .product-item {
+            /* background: #f9f9f9; */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        /* Product Image */
+        
+        .product-item img {
+            width: 90%;
+            height: 50%;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        /* Product Description */
+        
+        .product-item p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #152f4e;
+            font-weight: bold;
+        }
+        /* Product Price */
+        
+        .product-item .price {
+            font-size: 16px;
+            color: #4CAF50;
+            font-weight: 700;
+        }
+        /* Order Button */
+        
+        .product-item button {
+            background-color: #2d5c2f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .product-item button:hover {
+            background-color: #45a049;
+        }

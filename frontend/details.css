@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 16px;
+    color: #383838;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.additional-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 0;
+    /* Adjust this value to match the header's starting point */
+    padding-left: 0;
+    /* Ensure no additional padding is present */
+}
+
+.additional-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.additional-item label {
+    margin-right: 80%;
+    /* Pushes the price to the far right */
+}
+
+.additional-item .price {
+    margin-left: 10px;
+}
+
+.item-details {
+    /* background-image: url('assets/images/backgrd.png'); */
+    background-color: #d1dac2;
+}
+
+.item-dets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item-details img {
+    max-width: 50%;
+    border-radius: 8px;
+}
+
+.item-info {
+    padding: 20px;
+    max-width: 50%;
+}
+
+.item-info h2 {
+    color: #070707;
+}
+
+.item-info p {
+    color: #383838;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select,
+input[type="checkbox"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+}
+
+
+/* button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #388E3C;
+} */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* Adjust the gap as needed */
+    margin-top: 20px;
+    /* Adjust the margin as needed */
+}
+
+.add-to-order-btn,
+.add-to-favourite-btn {
+    background-color: #2d5c2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    /* Adjust the padding as needed */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    /* Adjust the font size as needed */
+}
+
+.add-to-order-btn:hover,
+.add-to-favourite-btn:hover {
+    background-color: #388E3C;
+}

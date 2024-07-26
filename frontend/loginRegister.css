@@ -1,0 +1,90 @@
+body,
+html {
+    font-family: 'Brandon Grotesque', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #383838;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+.container {
+    /* background-image: url('assets/images/backkgrd.png'); */
+    background-color: #d1dac2;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: flex;
+    width: fit-content;
+    max-width: 100%;
+    min-height: 480px;
+}
+
+.form-container {
+    padding: 50px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 50%;
+}
+
+.container button {
+    border-radius: 10px;
+    border: 1px solid #2d5c2f;
+    background-color: #2d5c2f;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 12px 150px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.container button:hover {
+    background-color: #112112;
+}
+
+.container button:active {
+    transform: scale(0.95);
+}
+
+.container button:focus {
+    outline: none;
+}
+
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.profile-pic {
+    font-size: 70px;
+    color: #2d5c2f;
+    margin-bottom: 15px;
+}
+
+
+/* .phone-number {
+    display: flex;
+}
+
+.phone-number input:first-child {
+    flex: 0 0 60px;
+    margin-right: 10px;
+} */

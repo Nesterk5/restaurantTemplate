@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Template</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="subscription.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="left-content">
+                <div class="welcome-message">
+                    <h1>Welcome to Our Restaurant!</h1>
+                </div>
+                <!-- <div class="Check-out-menu">
+                    <h1>Check out our delicious menu!"</h1>
+                </div> -->
+            </div>
+            <div class="right-content">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Restaurant Logo">
+                    <h2>My Restaurant</h2>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#menu" id="menu-link"><i class="fas fa-utensils"></i> MENU</a></li>
+                        <li><a href="#locations"><i class="fas fa-map-marker-alt"></i> LOCATIONS</a></li>
+                        <li><a href="#careers"><i class="fas fa-briefcase"></i> CAREERS</a></li>
+                        <li><a href="#feedback"><i class="fas fa-comments"></i> FEEDBACK</a></li>
+                        <li><a href="#about"><i class="fas fa-info-circle"></i> ABOUT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="order-button">
+                <a id="start-order-btn" href="#order" class="btn">ORDER ONLINE</a>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="subscription-section">
+        <div class="center-wrapper"></div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="email-subscription">
+            <form id="subscription-form">
+                <label for="email">Join our email list</label>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Email address">
+                    <button type="submit">Subscribe</button>
+                    <button type="button" onclick="unsubscribe()">Unsubscribe</button>
+                </div>
+            </form>
+
+            <p>By clicking <strong>"SUBSCRIBE" </strong>I agree to receive news, promotions, information, and offers from Cafe Javas.</p>
+        </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section locations">
+                <h3>LOCATIONS</h3>
+                <h4>KAMPALA</h4>
+                <p>Kira Road</p>
+                <p>Kampala Boulevard</p>
+                <p>Bombo Road</p>
+                <p>Oasis mall</p>
+                <p>Nakawa</p>
+                <p>Namirembe</p>
+                <p>Lugogo</p>
+                <p>Parliamentary Avenue</p>
+                <h4>ENTEBBE</h4>
+                <p>Victoria Mall</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>CONTACT US</h3>
+                <p>Email: info@cafejavas.co.ug</p>
+                <p>Phone: +256 313 72 00 00</p>
+                <p>Phone: +256 200 78 00 00</p>
+            </div>
+            <div class="footer-section menu">
+                <h3>OUR MENU</h3>
+                <p>BREAKFAST</p>
+                <p>DRINKS</p>
+                <p>MAINS</p>
+                <p>DESSERTS</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>We're committed to great food, great coffee, great service, an experience that will make your time with us fabulous. All visuals are serving suggestions only. Prices are quoted in Uganda Shillings and inclusive of VAT.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Use</a> |
+                <a href="#">Contact Us</a> |
+                <a href="#">Partners</a> |
+                <a href="#">Careers</a> |
+                <a href="#">Blog</a> |
+                <a href="#">Feedback</a>
+            </div>
+            <p>&copy; 2020 Cafe Javas. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

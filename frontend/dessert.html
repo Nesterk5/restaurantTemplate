@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast</title>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="dessert.css">
+    <link rel="stylesheet" href="subscription.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Restaurant Logo">
+                <h1>My Restaurant</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" id="index-link">HOME</a></li>
+                <li><a href="#menu" id="menu-link">MENU</a></li>
+                <li><a href="#featured" id="featuredpdts-link">FEATURED PRODUCTS</a></li>
+                <li><a href="#deals" id="deals-link">DEALS</a></li>
+                <li><a href="#cart" id="cart-link"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a></li>
+                <li><a href="#profile" id="profile-link"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="welcome-content">
+            <div class="background-section">
+                <section class="welcome-section">
+                    <h2>DELICIOUS DRINKS!</h2>
+                    <p>Welcome to our Restaurant's delicious universe. Everything from our Generous Big Meals, Perfected Drinks, Decadent to your Generous Big Meals Right here at your fingertips. ORDER NOW.</p>
+                </section>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-category">
+                    <img id="img1" src="assets/images/breakfast/strawberry-cream-cheese muffins.png" alt="muffins">
+                    <p>STRAWBERRY CREAM CHEESE MUFFINS</p>
+                    <p class="price">32,000</p>
+                    <button class="order-btn">ORDER</button>
+                </div>
+                <div class="menu-category">
+                    <img id="img1" src="assets/images/breakfast/fruit.jpeg" alt="fruit salads">
+                    <p>A FRUIT SALAD</p>
+                    <p class="price">32,000</p>
+                    <button class="order-btn">ORDER</button>
+                </div>
+                <div class="menu-category">
+                    <img id="img2" src="assets/images/breakfast/mini pancakes with fresh fruit.png" alt="Mini Pancakes">
+                    <p>MINI PANCAKES WITH FRESH FRUIT</p>
+                    <p class="price">32,000</p>
+                    <button class="order-btn">ORDER</button>
+                </div>
+                <div class="menu-category">
+                    <img id="img2" src="assets/images/breakfast/Omelette.png" alt="Omelette">
+                    <p>OMELETTE</p>
+                    <p class="price">32,000</p>
+                    <button class="order-btn">ORDER</button>
+                </div>
+                <div class="menu-category">
+                    <img id="img2" src="assets/images/breakfast/pastries.png" alt="Pastries">
+                    <p>PASTRIES</p>
+                    <p class="price">32,000</p>
+                    <button class="order-btn">ORDER</button>
+                </div>
+                <div class="menu-category">
+                    <img id="img2" src="assets/images/breakfast/fluffypancakes.png" alt="Fluffy pancakes">
+                    <p>FLUFFY PANCAKES</p>
+                    <p class="price">32,000</p>
+                    <button class="order-btn">ORDER</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="subscription-section">
+        <div class="center-wrapper"></div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="email-subscription">
+            <form id="subscription-form">
+                <label for="email">Join our email list</label>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Email address">
+                    <button type="submit">Subscribe</button>
+                    <button type="button" onclick="unsubscribe()">Unsubscribe</button>
+                </div>
+            </form>
+            <p>By clicking <strong>"SUBSCRIBE"</strong> I agree to receive news, promotions, information, and offers from Cafe Javas.</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section locations">
+                <h3>LOCATIONS</h3>
+                <h4>KAMPALA</h4>
+                <p>Kira Road</p>
+                <p>Kampala Boulevard</p>
+                <p>Bombo Road</p>
+                <p>Oasis mall</p>
+                <p>Nakawa</p>
+                <p>Namirembe</p>
+                <p>Lugogo</p>
+                <p>Parliamentary Avenue</p>
+                <h4>ENTEBBE</h4>
+                <p>Victoria Mall</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>CONTACT US</h3>
+                <p>Email: info@cafejavas.co.ug</p>
+                <p>Phone: +256 313 72 00 00</p>
+                <p>Phone: +256 200 78 00 00</p>
+            </div>
+            <div class="footer-section menu">
+                <h3>OUR MENU</h3>
+                <p>BREAKFAST</p>
+                <p>DRINKS</p>
+                <p>MAINS</p>
+                <p>DESSERTS</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>We're committed to great food, great coffee, great service, an experience that will make your time with us fabulous. All visuals are serving suggestions only. Prices are quoted in Uganda Shillings and inclusive of VAT.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Use</a> |
+                <a href="#">Contact Us</a> |
+                <a href="#">Partners</a> |
+                <a href="#">Careers</a> |
+                <a href="#">Blog</a> |
+                <a href="#">Feedback</a>
+            </div>
+            <p>&copy; 2020 Cafe Javas. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="details.js"></script>
+</body>
+
+</html>
